@@ -14,6 +14,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return const MaterialApp(
       title: 'Battery Plus Demo',
+      debugShowCheckedModeBanner: false,
       home: BatteryPage(title: 'Battery Plus Demo'),
     );
   }
